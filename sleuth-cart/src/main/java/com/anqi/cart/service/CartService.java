@@ -9,8 +9,7 @@ public class CartService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CartService.class);
 
-    public void addProductToCart() {
-        String cartId = "a12";
-        LOGGER.info("add product to cat catid:{}",cartId);
+    public void addProductToCart(String cartId, String productName) {
+        LOGGER.info("add product to cat catid:{}, productName{}:",cartId, productName);
     }
 }

@@ -12,10 +12,5 @@
     <artifactId>sleuth-order</artifactId>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
-    </dependencies>
+
 </project>
